@@ -58,8 +58,6 @@ def smallestRange(nums):
 						candidateSmall = allData[i]
 						candidateLarge = allData[j]
 				
-	
-
 	return ([candidateSmall,candidateLarge])
     
 
@@ -72,8 +70,6 @@ def main():
 	result = smallestRange(nums)
 	time_b = time.time()
 	print (time_b-time_a)
-	
-	
 	print (result)
 	
 main()
