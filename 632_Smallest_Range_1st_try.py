@@ -1,3 +1,16 @@
+'''
+Run time: (n**2) --> to be modified in next trials
+Leetcode.com score: 5% - 10% for run time and space
+
+Takeaways:
+1. The order of a for loop is also important (although it is still slow)
+2. Make sure to break for loop if the rest of items are useless
+
+Other comments:
+1. external data file imported
+
+'''
+
 import time
 
 def readData(address):
@@ -22,7 +35,6 @@ def readData(address):
 
 	return nums
 
-
 def smallestRange(nums):
         
 	diff = 200000
@@ -35,9 +47,7 @@ def smallestRange(nums):
 			if item not in allData:
 				allData.append(item)
 	allData.sort()
-    
-
-		
+    		
 	for i in range(len(allData)-1,-1,-1):
 		for j in range(i, len(allData)):
 			#if allData[j] - allData[i] > diff:	
@@ -60,8 +70,6 @@ def smallestRange(nums):
 				
 	return ([candidateSmall,candidateLarge])
     
-
-	
 def main():
 	address = 'D:\\Xudong\\Xudong_work_and_study\\xudong leetcode\\632_smallest_range\\data.txt'
 	nums = readData(address)
