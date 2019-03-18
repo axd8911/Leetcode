@@ -4,9 +4,7 @@ Be aware that you refered to a solution.
 The main idea is using search of a dictionary. Should come back and repeat
 run time level (n)
 
-
 '''
-
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
