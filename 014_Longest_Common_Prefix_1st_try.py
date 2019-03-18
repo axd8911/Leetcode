@@ -1,3 +1,11 @@
+'''
+Easy question
+97%
+One for loop. May still try to simplify the code in for loop.
+'''
+
+
+
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
                 
