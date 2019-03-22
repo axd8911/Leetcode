@@ -12,3 +12,4 @@ Due to the work load of ME interviews, I do more easy questions these days.
   Assign some value to a variable: assign the value itself or assign the memory location?
   One line to loop over lists in list
   Sometimes it is useful to calculate the first few items in hand writing and then try to find the rule or equaion for bigger set.
+  Another solution uses zip command in Python. Should learn about how to use it.
