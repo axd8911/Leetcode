@@ -8,3 +8,7 @@ Due to the work load of ME interviews, I do more easy questions these days.
 03/21/2019
 049 Group Anagram:
   Spent a lot of time on comparing letter by letter in strings, while finally figured out that it can be easily solved by dictionary. Each dict key is the sorted string. Then output is the list of values for each key.
+048 Rotate Image:
+  Assign some value to a variable: assign the value itself or assign the memory location?
+  One line to loop over lists in list
+  Sometimes it is useful to calculate the first few items in hand writing and then try to find the rule or equaion for bigger set.
