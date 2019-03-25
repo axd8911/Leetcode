@@ -13,3 +13,14 @@ Due to the work load of ME interviews, I do more easy questions these days.
   One line to loop over lists in list
   Sometimes it is useful to calculate the first few items in hand writing and then try to find the rule or equaion for bigger set.
   Another solution uses zip command in Python. Should learn about how to use it.
+
+03/22/2019
+Did an interview with Facebook in hardware development
+
+03/23/3019
+No update. Did some heavy house work.
+
+03/24/2019
+070 Climbing Stairs
+  It is a fibonacci list. Like what I found in 048, it is useful to calculate the first few items and find the rules.
+  Later, it may be useful to try dynamic programming
