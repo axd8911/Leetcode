@@ -24,3 +24,8 @@ No update. Did some heavy house work.
 070 Climbing Stairs
   It is a fibonacci list. Like what I found in 048, it is useful to calculate the first few items and find the rules.
   Later, it may be useful to try dynamic programming
+
+03/25/2019
+Started CC189 study
+961 N-Repeated Element in Size 2N Array
+  Not so challenge. a easy question. Easier than what the question describes.
