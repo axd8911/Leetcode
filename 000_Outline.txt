@@ -29,3 +29,7 @@ No update. Did some heavy house work.
 Started CC189 study
 961 N-Repeated Element in Size 2N Array
   Not so challenge. a easy question. Easier than what the question describes.
+
+03/27/2019
+066 Plus One
+  An easy one. Not much to add.
