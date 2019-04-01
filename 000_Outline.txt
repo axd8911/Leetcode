@@ -38,4 +38,8 @@ Started CC189 study
 021 Merge Two Sorted Lists
   Useful to understand linked list
   Could do it shorter, see the 5 line python solution in leetcode.
+  
+03/31/2019
+028 Implement strStr()
+  Another easy question. Pay attention to the concer cases.
 
