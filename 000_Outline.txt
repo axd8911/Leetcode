@@ -4,7 +4,7 @@ Due to the work load of ME interviews, I do more easy questions these days.
   You may choose either less memory, or shorter run time. Hard to get both. Leetcode has a few solutions and it may worth to take a look, especially for the hash table one, and the logic relation one.
 017 Letter Combination of a Phone Number: 
   May check if others have anything faster than O(n**3)
-     
+
 03/21/2019
 049 Group Anagram:
   Spent a lot of time on comparing letter by letter in strings, while finally figured out that it can be easily solved by dictionary. Each dict key is the sorted string. Then output is the list of values for each key.
@@ -43,4 +43,13 @@ Started CC189 study
 028 Implement strStr()
   Another easy question. Pay attention to the concer cases.
   
+04/08/2019
+141 Linked List Cycle
+  Another easy question
+023 Merge k Sorted Lists
+  A good practice for linked list address allocation and exchange.
+  Sometimes it may be helpful to jump out of a fixed frame. For example, list in this problem will be very helpful.
+024 Swap Nodes in Pairs
+  A good practice for linked list address allocation and exchange. Should repeat it and do some similar ones soon.
+ 
 
