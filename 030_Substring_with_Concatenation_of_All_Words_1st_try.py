@@ -1,3 +1,14 @@
+'''
+
+40%
+
+Normal solution could just make it 40%. A better way of thinking about this problem is available and I thought about it already. The better approach should be tried next time.
+
+
+'''
+
+
+
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
         
