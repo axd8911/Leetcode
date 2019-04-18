@@ -1,4 +1,4 @@
-03/20/2019 
+03/20/2019
 Due to the work load of ME interviews, I do more easy questions these days.
 136 Single Number: 
   You may choose either less memory, or shorter run time. Hard to get both. Leetcode has a few solutions and it may worth to take a look, especially for the hash table one, and the logic relation one.
