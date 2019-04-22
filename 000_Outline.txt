@@ -52,4 +52,7 @@ Started CC189 study
 024 Swap Nodes in Pairs
   A good practice for linked list address allocation and exchange. Should repeat it and do some similar ones soon.
  
-
+04/22/2019
+127 Word Ladder
+  BFS question. Needs to pay attention to the defaultdict function.
+  Think further about which way is more efficient, when facing with some tedious logic.
