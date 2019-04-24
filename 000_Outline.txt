@@ -3,7 +3,7 @@ Due to the work load of ME interviews, I do more easy questions these days.
 136 Single Number: 
   You may choose either less memory, or shorter run time. Hard to get both. Leetcode has a few solutions and it may worth to take a look, especially for the hash table one, and the logic relation one.
 017 Letter Combination of a Phone Number: 
-  May check if others have anything faster than O(n**3)
+  May check if others have anything faster than O(n**3) 
 
 03/21/2019 
 049 Group Anagram:
