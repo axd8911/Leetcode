@@ -56,3 +56,16 @@ Started CC189 study
 127 Word Ladder
   BFS question. Needs to pay attention to the defaultdict function.
   Think further about which way is more efficient, when facing with some tedious logic.
+
+05/04/2019
+043 Multiply Strings
+  A strange problem. Multiply digit by digit and add them up.
+
+05/05/2019
+034	Find First and Last Position of Element in Sorted Array
+  Binary search. Try to be more proficient in binary search
+038 Count and Say
+  Normal string problem. Be more careful with boundary conditions
+046 Permutations
+  Similar to 017. It is a backtracking problem. I did not use recursive way, but rescursion should definitely be practised.
+
