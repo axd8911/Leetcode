@@ -68,4 +68,9 @@ Started CC189 study
   Normal string problem. Be more careful with boundary conditions
 046 Permutations
   Similar to 017. It is a backtracking problem. I did not use recursive way, but rescursion should definitely be practised.
+  
+05/11/2019
+Try to understand shallow copy and deep copy!!
+Try to understand shallow copy and deep copy!!
+Try to understand shallow copy and deep copy!!
 
