@@ -69,8 +69,15 @@ Started CC189 study
 046 Permutations
   Similar to 017. It is a backtracking problem. I did not use recursive way, but rescursion should definitely be practised.
   
+05/10/2019
+033 Search in Rotated Sorted Array
+  Form a way to do binary search and repeat the way.
+  Duplicate the data then do operate. Using pointers and movers is not so efficient. 
+
 05/11/2019
-Try to understand shallow copy and deep copy!!
-Try to understand shallow copy and deep copy!!
-Try to understand shallow copy and deep copy!!
+  Try to understand shallow copy and deep copy!!
+  Try to understand shallow copy and deep copy!!
+  Try to understand shallow copy and deep copy!!
+039 Combination Sum
+  Backtracking. Very typical question. Should try to deeply understand the circles. Make the circles and loops clear.
 
