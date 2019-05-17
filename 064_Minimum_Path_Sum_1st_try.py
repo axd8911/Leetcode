@@ -1,6 +1,5 @@
 '''
-92.35%
-
+99.71%
 Very similar way as 063. Accumulate values from previous grids
 
 '''
