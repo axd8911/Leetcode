@@ -1,3 +1,9 @@
+'''
+92%
+
+Do you want to do iteration layer by layer? Make some good use of the 'next' item in created linked list. 
+'''
+
 """
 # Definition for a Node.
 class Node(object):
