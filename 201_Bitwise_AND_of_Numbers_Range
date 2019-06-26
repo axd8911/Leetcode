@@ -1,0 +1,36 @@
+'''
+96%
+
+'''
+
+#solution by Bit Operators
+class Solution:
+    def rangeBitwiseAnd(self, m: int, n: int) -> int:
+        
+        i = 0
+        while m != n:
+            print (m,n)
+            m >>= 1
+            n >>= 1
+            i += 1
+            
+        return m << i
+        
+#solution by strings
+class Solution:
+    def rangeBitwiseAnd(self, m: int, n: int) -> int:
+        
+        str_m = str(bin(m))[2:][::-1]
+        str_n = str(bin(n))[2:][::-1]
+        if len(str_m) != len(str_n):
+            return 0
+        
+        output = 0
+        
+        for i in range(len(str_m)-1,-1,-1):
+            if str_n[i] != str_m[i]:
+                break
+            else:
+                output += 2**i * int(str_m[i])
+
+        return output
