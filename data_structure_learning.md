@@ -1,5 +1,5 @@
-DFS
-stack
+##DFS
+###stack
 ```python
 DFS_stack(graph,stack):
 ```
