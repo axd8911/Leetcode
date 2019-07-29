@@ -1,5 +1,5 @@
 DFS
 stack
-'''python
+```python
 DFS_stack(graph,stack):
-'''
+```
