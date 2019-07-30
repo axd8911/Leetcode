@@ -8,11 +8,11 @@ def DFS_stack(graph,start):
     visited.add(start)
 
     while stack != []:
-      vertex = stack.pop()
-      for item in graph[vertex]:
-          if item in visited:
-              stack.append(item)
-              visited.add(item)
+        vertex = stack.pop()
+        for item in graph[vertex]:
+            if item in visited:
+                stack.append(item)
+                visited.add(item)
       print (vertex)
 ```
 
@@ -50,4 +50,17 @@ def DFS_queue(graph,start):
                 visited.add(item)
 
         print (vertex)
+```
+
+## Connected Components
+```python
+def connectedComponents(graph,start):
+    visited = {node:False for node in list(graph.keys())}
+
+
+
+
+
+
+
 ```
