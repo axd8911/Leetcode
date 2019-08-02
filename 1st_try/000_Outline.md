@@ -84,3 +84,12 @@ Started CC189 study
 ## 07/30/2019
 ### 310 Minimum Height Trees
 To be learning the better idea.
+### 417 Pacific Atlantic Water Flow
+It is BFS. Sometimes if it is hard to solve a problem in normal order, reserve it and think it from backend.
+
+
+## 08/02/2019
+### 079 Word search
+Backtracking
+There is one way to mark a item you visited: create a set or create a visited list
+There is another way: visit it, then change the value, so that later comers cannot find it -- change it back in time if it is still needed in the future.
