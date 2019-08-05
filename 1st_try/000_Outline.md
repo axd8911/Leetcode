@@ -93,3 +93,19 @@ It is BFS. Sometimes if it is hard to solve a problem in normal order, reserve i
 Backtracking
 There is one way to mark a item you visited: create a set or create a visited list
 There is another way: visit it, then change the value, so that later comers cannot find it -- change it back in time if it is still needed in the future.
+
+## 08/03/2019
+1st round done with BFS. More harder problems to go.
+
+## 08/04/2019
+Start of Greedy algorithm
+### 435 Non-overlapping interval
+Sort by end so that early item does not impact later ones
+
+### 452 Minimum number of Arrows to burst balloons
+Almost the same as 435. As far as it does not go exceed end point, items can be treated the same way.
+
+## 08/05/2019
+### 714 Best Time to buy and sell stock with transaction fee
+### 309 Best Time to buy and sell stock with cooldown
+These stock problems are really a lot of fun. Make clear the dynamic programming in status of each node.
