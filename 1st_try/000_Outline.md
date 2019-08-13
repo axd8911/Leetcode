@@ -163,6 +163,7 @@ A summary is needed for each question, with the following bullets.
 
 a few rules, try to follow
 - Try to inspect the code and be bug free, even before submitting
+- Come up with test cases all by yourself
 - Use English to write down the thoughts
 - Use the write board itself to do the draft calculation
 - Time is valuable. Think about a question in limited time, if no ideas come up, read solutions. Easy: 10 min, medium: 15min, hard: 25min. Finish a problem in at most 1 hour!!!
@@ -184,14 +185,19 @@ raise Exception('No matches')
 - The solution is amazing. tracking the string until we find the palindromic part, then track the part and see how long it is. if another palindromic part appears, start tracking when its length is standing out.
 - time O(N^2),space O(1)
 - new tech or new learn:
-..1 I was trying to finish one step when seeing different items. It is possible that I can only find same items till the end. As a result, I may not be able to get a wanted values
-..2 in a for loop, if not sure about edge, draw it on a paper. Very easy to make mistakes here.
+    1. I was trying to finish one step when seeing different items. It is possible that I can only find same items till the end. As a result, I may not be able to get a wanted values
+    2. in a for loop, if not sure about edge, draw it on a paper. Very easy to make mistakes here.
 - I saw solutions for the fastest algorithm
 
+### 004 Median of Two Sorted Arrays
+- binary search. Constant amount of values should be in front of the median. The approach is to locate the position where we should split into 'front' and 'end'. Binary search such a Position
+- time O(log(m+n)), space O(1)
+- new tech or new learn: Try to control pointers: start, end, mid, when to break
 
 
 
-
+## Summarize a good binary search method
+### 4
 
 ## repeat these questions.
-### 10, 37, 79, 473, 974,5
+### 10, 37, 79, 473, 974,5,4
