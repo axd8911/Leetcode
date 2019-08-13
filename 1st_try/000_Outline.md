@@ -109,3 +109,89 @@ Almost the same as 435. As far as it does not go exceed end point, items can be 
 ### 714 Best Time to buy and sell stock with transaction fee
 ### 309 Best Time to buy and sell stock with cooldown
 These stock problems are really a lot of fun. Make clear the dynamic programming in status of each node.
+
+## 08/06/2019
+Backtracking
+### 526 Beautiful Arrangement
+Try to change a direction and see if it can be done faster
+
+## 08/07/2019
+Some crucial points in backtracking:
+1. When should I use FOR LOOP in backtracking function
+2. how to control the flow in Backtracking
+3. when should I use self.var when var is an external variable to be used in a function?
+4. when to use 'return' and when not to, in a if condition in function
+    return means that we are executing for loop and now the for loop finished this and is going next
+    typical question 017 letter combinations of a phone number
+5. time complexity calculation
+
+## 08/08/2019
+Start going through DFS. Make it!!!
+### 394 Decode strings
+DFS and stack, both works.
+isdigit() tells whether a string is all made of numbers
+
+### 473 Matchsticks to Square
+DFS: recursion: how to stop it and return the value?
+Got it but TLE.
+A solution with Python is available. Some DFS thoughts are really amazing. Thinking about a quesiton smartly.
+
+### 494 Target Sum
+DFS or DP. It is important to judge which makes the question easier before starting the implementation.
+Now i am reviewing DFS, but obviously this question can be solved by DP much easier.
+When list takes too long, use dict.
+When we need count of some item, use dict instead of list. Are we going to count the amount in the list? No!
+
+## 08/11/2019
+Still unsure about DFS return values. Others are fine, needing more practices.
+Starting heap
+### 974 Subarray Sums Divisible by K
+what a amazing prefix sum question. It is the reason that we need to refer to solutions instead of struggling all by ourselves.
+
+### 313 Super ugly number
+Now this is a heap question. Pop the smallest number from a list each time.
+Knowledge I need to enhance: heap functions, map(), generator, yield
+
+## 08/12/2019
+Today let me start the second round of leetcode - following appearance frequency. Expect at least 10 per day.
+A summary is needed for each question, with the following bullets.
+- my code in another file
+- the algorithm I used (could be multiple). The time and space complexity.
+- some new coding techs I learned from solutions.
+- If I looked at the solution first, mark it.
+- If there are extended quesitons, think about them.
+
+a few rules, try to follow
+- Try to inspect the code and be bug free, even before submitting
+- Use English to write down the thoughts
+- Use the write board itself to do the draft calculation
+- Time is valuable. Think about a question in limited time, if no ideas come up, read solutions. Easy: 10 min, medium: 15min, hard: 25min. Finish a problem in at most 1 hour!!!
+
+### 001 Two sum
+- hash table
+- time O(N), space O(N)
+- new tech or new learn: throw exception
+```python
+raise Exception('No matches')
+```
+
+### 002 Add two numbers
+- linked list, basic math
+- time O(N), space O(N)
+- new tech or new learn: when we are creating a linked list or other node, we need a backup which keeps at the initial node.
+
+### 005 Longest Palindromic Substring
+- The solution is amazing. tracking the string until we find the palindromic part, then track the part and see how long it is. if another palindromic part appears, start tracking when its length is standing out.
+- time O(N^2),space O(1)
+- new tech or new learn:
+..1 I was trying to finish one step when seeing different items. It is possible that I can only find same items till the end. As a result, I may not be able to get a wanted values
+..2 in a for loop, if not sure about edge, draw it on a paper. Very easy to make mistakes here.
+- I saw solutions for the fastest algorithm
+
+
+
+
+
+
+## repeat these questions.
+### 10, 37, 79, 473, 974,5
