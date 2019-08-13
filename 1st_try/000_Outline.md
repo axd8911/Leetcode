@@ -193,11 +193,25 @@ raise Exception('No matches')
 - binary search. Constant amount of values should be in front of the median. The approach is to locate the position where we should split into 'front' and 'end'. Binary search such a Position
 - time O(log(m+n)), space O(1)
 - new tech or new learn: Try to control pointers: start, end, mid, when to break
+- I saw solutions for the fastest algorithm
 
+### 200 Number of Islands
+- DFS using recursion or stack
+- time O(mn), space O(mn)
+- new tech or new learn: instead of using a 'visited' matrix, you can also change the cell, if they will not be used in the future. It can save space.
+
+### 042 Trapping Rain Water
+- two pointers: left and right work together to collect water
+- time O(n),spaceO(1)
+- I saw solutions for the fastest algorithm
+
+### 003 Longest Substring without Repeating Characters
+- hashmap: save appeared letter in hashmap and search for it in the future. If it appeared before refresh, fine. Else, do refresh.
+- Time O(n), space O(n)
 
 
 ## Summarize a good binary search method
 ### 4
 
 ## repeat these questions.
-### 10, 37, 79, 473, 974,5,4
+### 10, 37, 79, 473, 974,5,4,42
