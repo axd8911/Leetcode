@@ -189,6 +189,7 @@ raise Exception('No matches')
     2. in a for loop, if not sure about edge, draw it on a paper. Very easy to make mistakes here.
 - I saw solutions for the fastest algorithm
 
+## 08/13/2019
 ### 004 Median of Two Sorted Arrays
 - binary search. Constant amount of values should be in front of the median. The approach is to locate the position where we should split into 'front' and 'end'. Binary search such a Position
 - time O(log(m+n)), space O(1)
@@ -208,6 +209,26 @@ raise Exception('No matches')
 ### 003 Longest Substring without Repeating Characters
 - hashmap: save appeared letter in hashmap and search for it in the future. If it appeared before refresh, fine. Else, do refresh.
 - Time O(n), space O(n)
+
+### 015 3Sum
+- Two pointers: skip repeated items in time, jump out when rest no longer meets requirement
+- Time O(n^2), space O(1)
+- I saw solutions for some extra if conditions to optimize the computing
+
+### 053 Maximum Subarray
+- Mathematics
+- time O(n), space O(1)
+
+### 021 Merge Two Sorted Lists
+- Linked list
+- time O(n), space O(n)
+- Do not forget how to implement a linked list or a list node.
+
+### 023 Merge k Sorted Lists
+- Heap
+- time O(kN), space O(k) ???
+- new tech or new learn:
+    1. Memorize the time complexity of heap functions
 
 
 ## Summarize a good binary search method
