@@ -226,13 +226,56 @@ raise Exception('No matches')
 
 ### 023 Merge k Sorted Lists
 - Heap
-- time O(kN), space O(k) ???
-- new tech or new learn:
-    1. Memorize the time complexity of heap functions
+- time O(Nlogk), space O(N) ???
+- new tech or new learn: Memorize the time complexity of heap functions
+
+### 273 Integer to English Words
+- Play with strings
+- time O(N), space O(1)
+
+## 08/14/2019
+### 056 Merge Intervals
+- Sorting: based on small end. There is another intervals question 435, sorting based on big end.
+- time O(NlogN), space O(N) or O(1)
+
+### 206 Reverse Linked List
+- linked list, recursion
+- time O(N), space O(1)
+- Linked list: very careful about the nodes assigning.
+- I saw solution for this question. Memorize the recursion please.
+
+### 020 Valid Parentheses
+- Stack. Remember to delete element after comparison
+- time O(N), space O(N)
+
+### 301 Remove Invalid Parentheses
+- String. Could be done in DFS
+- time O(2^N), space O(N)
+
+### 937 Reorder Log Files
+- String
+- time O(NlogN), space O(N)
+
+### 007 Reverse Integer
+- Digit
+- time O(logN), space O(1)
+- New tech or new learn: signed 32 digits integer: [-2**31,2**31-1]
+
+## 08/15/2019
+### 076 Minimum Window Substring
+- Two pointer: keep a record when the window just matches our needs
+- time O(S+T), space O(S+T)
+- New tech or new learn
+    1. collections.defaultdict(int) - a dictionary, if you call a key which is not defined, it will be assigned a default value. value type defined in the bracket
+- I saw solution for the fastest algorithm
+
+
+## skipped questions
+253 (prime), 146 (to do), 297 (to do)
 
 
 ## Summarize a good binary search method
 ### 4
 
 ## repeat these questions.
-### 10, 37, 79, 473, 974,5,4,42
+### 10, 37, 79, 473, 974, 5, 4, 42, 206
