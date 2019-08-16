@@ -269,13 +269,62 @@ raise Exception('No matches')
     1. collections.defaultdict(int) - a dictionary, if you call a key which is not defined, it will be assigned a default value. value type defined in the bracket
 - I saw solution for the fastest algorithm
 
+### 033 Search in Rorated Sorted Array
+- Binary Search
+- time O(logN), space O(1)
+- New tech or new learn
+    1. binary search in this question:
+    ```python
+        while start <= end:
+            mid = (start + end) // 2
+            if some condition:
+                return output
+            if (matched item is in left):
+                end -= 1
+            else:
+                start += 1
+    ```
+
+### 121 Best Time to Buy and Sell Stock
+- Dynamic programming
+- time O(N), space O(1)
+- New tech or new learn: max() or min() is slower than if a>largest: largest = a.
+
+### 238 Product of Array Except Self
+- Dynamic programming
+- time O(N), space O(1)
+- New tech or new learn: sometimes there is no need to track whole list, only 1 unit of space is needed for a single number
+
+### 022 Generate Parentheses
+- backtracking
+- time O(), space O() - so complicated please refer to CC189 time complexity
+
+### 011 Container with Most Water
+- Two pointer
+- time O(N), space O(1)
+
+### 049 Group Anagrams
+- hashmap
+- time O(Nklogk), space O(Nk)
+
+### 771 Jewels and Stones
+- hashmap
+- time O(N), space O(N)
+
+##08/16/2019
+### 560 Subarray Sum Equals K
+- Prefix sum, hashmap
+- time O(N), space O(N)
+
+
+
 
 ## skipped questions
-253 (prime), 146 (to do), 297 (to do)
+253 (prime), 146 (to do), 297 (to do), 560(to do)
 
 
 ## Summarize a good binary search method
-### 4
+### 4, 33
 
 ## repeat these questions.
-### 10, 37, 79, 473, 974, 5, 4, 42, 206
+### 10, 37, 79, 473, 974, 5, 4, 42, 206,33,76
