@@ -316,15 +316,85 @@ raise Exception('No matches')
 - Prefix sum, hashmap
 - time O(N), space O(N)
 
+### 010 Regular Expression Matching
+- Dynamic programming
+- time O(TP), space O(TP)
+- Know how to implement dp and recursion both. Although dp is much faster
+
+### 289 Game of Life
+- Array
+- time O(MN), space O(1)
+- change the local value for convenience
+
+### 79 Word search
+- DFS
+- time O(MN*4^s), space O(1)
+
+### 88 Merge Sorted Array
+- Array: do it smartly - if you work from back side,there is no need to pop and insert
+- time O(N), space O(1)
+
+### 336 Palindrome Pairs
+- hashmap
+- time O(N*k^2), space O(Nk)
+- New tech or new learn
+    1. key of this question is split the string. As palindrome, it has to have some part PLD itself, and other part PLF other string.
+    2. It seems this can be done in Trie.
+
+### 031 Next Permutation
+- Array - know how permutation is created - 355421 --> 412355
+- time O(N), space O(1)
+- new tech or new learn:
+    1. binary search:
+    ```python
+    while start<=end:
+        mid = (start+end)//2
+        if (some conditions):
+            (mid is /*what you need)
+            break
+        if some conditions:
+            start = mid + 1
+        else:
+            end = mid - 1
+
+    ```
+
+### 054 Spiral Matrix
+- Array - a way to cut a matrix through margin
+- time O(MN), space O(MN)
+
+### 046 Permutation
+- backtracking
+- time O(N!), space O(N!)
+
+### 215 Kth_Largest_Element_in_an_Array.py
+- heap
+- time O(klogN), space O(n)
+
+##08/17/2019
+### 811 Subdomain Visit Count
+- String
+- time O(N), space O(N)
+
+### 013 Roman to integer
+- Hashmap
+- time O(N), space O(1)
+
+### 068 Text Justification
+- Array
+- time O(Nk), space O(N)
 
 
 
 ## skipped questions
-253 (prime), 146 (to do), 297 (to do), 560(to do)
+253 (prime), 146 (to do), 297 (to do), 380 (to do), 295 (to do), 269 (prime), 68 (to do)
 
 
 ## Summarize a good binary search method
 ### 4, 33
+
+## Summarize a way to return value accurately from recursion/DFS/backtracking
+### 79,10
 
 ## repeat these questions.
 ### 10, 37, 79, 473, 974, 5, 4, 42, 206,33,76
