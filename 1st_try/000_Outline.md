@@ -384,10 +384,31 @@ raise Exception('No matches')
 - Array
 - time O(Nk), space O(N)
 
+## 08/18/2019
+### 394 Decode String
+- Array: please clearly discuss the possible situations and their operations
+- time O(N), space O(N)
+
+### 17 Letter Combinations of a Phone number
+- backtracking
+- time O(3^N), space O(3^N)
+
+### 332 Reconstruct Itinerary
+- directed graph
+- time O(N), space O(N)
+- I saw solution for this question: convert graph to tree and do a post traverse
+
+### 344 Reverse String
+- Array
+- time O(N), space O(1)
+
+### 91 Decode Ways
+- Dynamic Programming
+- time O(N), space O(1)
 
 
 ## skipped questions
-253 (prime), 146 (to do), 297 (to do), 380 (to do), 295 (to do), 269 (prime), 68 (to do)
+253 (prime), 146 (to do), 297 (to do), 380 (to do), 295 (to do), 269 (prime), 410 (to do)
 
 
 ## Summarize a good binary search method
