@@ -406,6 +406,23 @@ raise Exception('No matches')
 - Dynamic Programming
 - time O(N), space O(1)
 
+## 08/19/2019
+### 138 Copy List with Random Pointer
+- Linked list, hashmap
+- time O(N), space O(N)
+
+### 139 Word Break
+- Dynamic Programming, Backtracking
+- time O(Nk), space O(N)
+- I saw solutions for this question
+
+### 008 String to integer
+- Array
+- time O(N), space O(N)
+- new tech or new learn:
+    1. ```python string.strip()  ``` remove start and end spaces or other characters specified in ()
+    2. ```python number.bit_length()``` show the bit length of a number
+
 
 ## skipped questions
 253 (prime), 146 (to do), 297 (to do), 380 (to do), 295 (to do), 269 (prime), 410 (to do)
