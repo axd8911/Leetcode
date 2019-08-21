@@ -423,9 +423,76 @@ raise Exception('No matches')
     1. ```python string.strip()  ``` remove start and end spaces or other characters specified in ()
     2. ```python number.bit_length()``` show the bit length of a number
 
+### 041 First Missing Positive
+- Array
+- time O(N), space O(1)
+
+### 227 Basic Calculator II
+- Array, Stack
+- time O(N), space O(N)
+- new tech or new learn:
+    1. before putting something in stack, try to simplify it
+    2. accumulate digit string: ```python 10*previous + current ```
+
+### 155 Min Stack
+- Design, stack, array - so smart: keep the min value with all elements
+- time O(1), space O(N)
+
+### 202 Happy Number
+- Hash table, math
+- time O(N), space O(N)
+
+## 08/20/2019
+### 322 Coin Change
+- DFS, Dynamic Programming - take more DFS practice
+- time O(MN), space O(1)
+
+### 009 Palindrome Number
+- Array, math
+- time O(N), space O(1)
+
+### 012 Integer to Roman
+- Hashmap, math
+- time O(N), space O(N)
+- A extremely efficient way: 1-9, 10-90, 100-900, 1000-3000. We just need to put all these roman numbers in a dictionary
+
+### 127 Word Ladder
+- Hashmap, BFS
+- time O(MN), space O(MN)
+
+### 103 Binary Tree Zigzag Level Order Traversal
+- BFS
+- time O(N), space O(N)
+
+### 124 Binary Tree Maximum Path Sum
+- recursion
+- time O(N), space O(h) ???
+
+### 692 Top K Frequent Words
+- heapq, hashmap
+- time O(Nlogk), space O(N)
+
+### 6 ZigZag Conversion
+- array, math. The solution is amazing.
+- time O(N), space O(N)
+
+### 25 Reverse Nodes in k-Group
+- Linkedlist.
+- time O(N), space O(1)
+
+### 239 Sliding Window Maximum
+- deque
+- time O(N), space O(N)
+- new tech or new learn: collections.deque(), it has pop() and popleft(), it is a higher efficient list
+
+### 283 Move Zeros
+- array
+- time O(N), space O(1)
+
+
 
 ## skipped questions
-253 (prime), 146 (to do), 297 (to do), 380 (to do), 295 (to do), 269 (prime), 410 (to do)
+253 (prime), 146 (to do), 297 (to do), 380 (to do), 295 (to do), 269 (prime), 410 (to do), 460 (to do), 341 (to do), 72 (to do)
 
 
 ## Summarize a good binary search method
