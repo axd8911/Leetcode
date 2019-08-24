@@ -489,17 +489,93 @@ raise Exception('No matches')
 - array
 - time O(N), space O(1)
 
+## 08/21/2019
+### 072 Edit Distance
+- Recursion with memo
+- time O(MN), space O(MN)
+
+### 347 Top K Frequent Elements
+- heap
+- time O(Nlogk), space O(N)
+
+### 412 Fizz Buzz
+- array
+- time O(N), space O(N)
+
+### 045 Jump Game II
+- BFS, array
+- time O(N), space O(1)
+
+### 024 Swap Nodes in Pairs
+- Linked list
+- time O(N), space O(1)
+
+### 078 Subsets
+- Recursion
+- time O(), space O() ???
+
+### 067 Add binary
+- array
+- time O(N), space O(N)
+
+### 050 Pow (x,n)
+- math, recursion
+- time O(logN), space O(1)
+
+### 098 Validate Binary Search Tree
+- Recursion, iteration
+- time O(N), space O(1) or O(N)
+
+### 199 Binary Tree Right Side View
+- BFS, tree
+- time O(N), space O(N)
+- new tech or new learn: good idea to use deque for BFS instead of normal list
+
+## 08/22/2019
+### 133 Clone Graph
+- BFS, DFS, recursion
+- time O(edge), space O(node)
+- new tech or new learn: a comprehensive question to learn all BFS, DFS recursion and DFS iteration
+
+### 146 LRU Cache
+- Double linked list, design
+- time O(1), space O(N)
+- new tech or new learn:
+    1. double side linked list
+    2. ```python collections.OrderedDict() ```
+
+### 297 Serialize and Deserialize Binary Tree
+- Tree
+- time O(N), space O(N)
+
+### 380 Insert Delete GetRandom O(1)
+- Design
+- time O(1), space O(N)
+- new tech or new learn: ```python random.choice(), random.randint()  ```
+
+## 08/23/2019
+### 295 Find Median from Data Stream
+- heap, sorting
+- time O(logN), space O(N)
+
+
+
+
 
 
 ## skipped questions
-253 (prime), 146 (to do), 297 (to do), 380 (to do), 295 (to do), 269 (prime), 410 (to do), 460 (to do), 341 (to do), 72 (to do)
-
+253 (prime), 269 (prime), 410 (to do), 460 (to do), 341 (to do), 716 (prime), 642(prime), 340(prime)
 
 ## Summarize a good binary search method
 ### 4, 33
 
 ## Summarize a way to return value accurately from recursion/DFS/backtracking
-### 79,10
+### 79,10, 72,322, 50, 98,133
+
+## a problem can be done in BFS, DFS recursion, DFS iteration
+### 133,297
+
+
 
 ## repeat these questions.
 ### 10, 37, 79, 473, 974, 5, 4, 42, 206,33,76
