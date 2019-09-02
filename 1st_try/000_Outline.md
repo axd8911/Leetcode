@@ -558,13 +558,32 @@ raise Exception('No matches')
 - heap, sorting
 - time O(logN), space O(N)
 
+## 08/24/2019
+Weekly contest
 
+## 08/25/2019
+### 410 Split Array Largest Sum
+- binary search
+- time O(Nlog(sum)), space O(1)
+
+### 253 Meeting Rooms II
+- array
+- time O(NlogN), space O(N)
+
+## 08/26/2019
+### 430 Flatten a Multilevel Doubly Linked List
+- Linked list, DFS
+- time O(N), space O(M)
+
+### 340 Longest Substring with at Most K Distinct Characters
+- dict, two pointers
+- time O(N), space O(N)
 
 
 
 
 ## skipped questions
-253 (prime), 269 (prime), 410 (to do), 460 (to do), 341 (to do), 716 (prime), 642(prime), 340(prime)
+269 (prime), 460 (to do), 341 (to do), 716 (prime), 642(prime)
 
 ## Summarize a good binary search method
 ### 4, 33
