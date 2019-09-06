@@ -589,6 +589,9 @@ prep for BB and MW
 
 ## 09/05/2019
 ### Now it is like a study log
+### add studying fundamental knowledge and system design
+### system design please follow the github repo and its links.
+### fundamental
 
 
 
