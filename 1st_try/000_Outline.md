@@ -579,6 +579,18 @@ Weekly contest
 - dict, two pointers
 - time O(N), space O(N)
 
+## 08/27/2019 - 08/31/2019
+prep for BB and MW
+
+## 09/01/2019
+### 973 K Closest Points to Origin
+- heap, array
+- time O(NlogN), space O(N)
+
+## 09/05/2019
+### Now it is like a study log
+
+
 
 
 
@@ -594,7 +606,11 @@ Weekly contest
 ## a problem can be done in BFS, DFS recursion, DFS iteration
 ### 133,297
 
+## Ebbinghaus
+### 146, 4, 5, 301, 238, 76, 22, 560, 10, 380
 
-
-## repeat these questions.
-### 10, 37, 79, 473, 974, 5, 4, 42, 206,33,76
+## misc
+### list, tuple, dic, linked lists
+### sweep from 0, sweep from -1
+### two pointers
+###
