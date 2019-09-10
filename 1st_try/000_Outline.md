@@ -588,11 +588,24 @@ prep for BB and MW
 - time O(NlogN), space O(N)
 
 ## 09/05/2019
-### Now it is like a study log
-### add studying fundamental knowledge and system design
-### system design please follow the github repo and its links.
-### fundamental
+- Now it is like a study log
+- add studying fundamental knowledge and system design
+- system design please follow the github repo and its links.
+- fundamental
 
+## 09/06/2019
+### a few tasks in near future
+- AC OA: in one Week
+- TW OA: no limit but please do it soon
+- CS425 HW1 and MP1
+- System design: please keep noting
+- Fundamental knowledge: watch algorithm lectures
+- Something else: ME conversations. This is just life. (虽然有时候不愿意，但是没办法)
+
+### a few courses notes to be added
+- system design
+- fundamental, algorithm
+- CS425
 
 
 
@@ -610,7 +623,7 @@ prep for BB and MW
 ### 133,297
 
 ## Ebbinghaus
-### 146, 4, 5, 301, 238, 76, 22, 560, 10, 380
+### 146, 4, 5, 301, 238, 76, 22, 560, 10, 380, 332, 224, 332
 
 ## misc
 ### list, tuple, dic, linked lists
