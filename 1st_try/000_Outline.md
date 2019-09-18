@@ -607,7 +607,11 @@ prep for BB and MW
 - fundamental, algorithm
 - CS425
 
-
+## 09/18/2019
+two things keep in mind:
+- summarize CDS interview
+- Learn SQL code
+- Do not forget Twitter OA
 
 
 ## skipped questions
@@ -623,7 +627,7 @@ prep for BB and MW
 ### 133,297
 
 ## Ebbinghaus
-### 146, 4, 5, 301, 238, 76, 22, 560, 10, 380, 332, 224, 332
+### 146, 4, 5, 301, 238, 76, 22, 560, 10, 380, 332, 224, 332, 227
 
 ## misc
 ### list, tuple, dic, linked lists
