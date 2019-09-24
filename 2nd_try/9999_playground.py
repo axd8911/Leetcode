@@ -1,9 +1,5 @@
+index = [i for i in range(20)]
 
-val =  65536
+id1 = [(45 + 2**i)%(2**8) for i in index]
 
-print ((val or (val+1)) == val)
-print ((val and (val+1)) == val)
-print ((val and (val-1)) == 0)
-print ((val or (val-1)) == 0)
-print ((val >>1) == (val / 2))
-print (((val>>1)<<1)==val)
+print (id1)
