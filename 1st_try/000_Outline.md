@@ -613,6 +613,11 @@ two things keep in mind:
 - Learn SQL code
 - Do not forget Twitter OA
 
+## 10/15/2019
+- 8pm - 9pm: OOD
+- 9pm - 10pm: Amazon OA1 prep
+- 10pm after: Leetcode (3-4questions)
+
 
 ## skipped questions
 269 (prime), 460 (to do), 341 (to do), 716 (prime), 642(prime)
