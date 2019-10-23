@@ -1,3 +1,9 @@
+class
+
+
+
+
+
 class ATM:
     def __init__(self):
         self.money = {}
