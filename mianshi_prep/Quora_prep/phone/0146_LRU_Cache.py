@@ -1,7 +1,7 @@
 class Node:
-    def __init__(self, key,val):
-        self.key = key
+    def __init__(self,key,val):
         self.val = val
+        self.key = key
         self.prev = None
         self.next = None
 
@@ -18,27 +18,21 @@ class LRUCache:
     def get(self, key: int) -> int:
         if key in self.dic:
             n = self.dic[key]
-            self._remove(n)
+            self._rem(n)
             self._add(n)
             return n.val
         return -1
 
     def put(self, key: int, value: int) -> None:
         if key in self.dic:
-            self._remove(self.dic[key])
+            self._rem(self.dic[key])
         n = Node(key,value)
         self.dic[key] = n
         self._add(n)
         if len(self.dic)>self.capacity:
             early = self.head.next
+            self._rem(self.dic[early.key])
             del self.dic[early.key]
-            self._remove(early)
-
-    def _remove(self,node):
-        p = node.prev
-        n = node.next
-        p.next = n
-        n.prev = p
 
     def _add(self,node):
         p = self.tail.prev
@@ -47,32 +41,13 @@ class LRUCache:
         self.tail.prev = node
         node.prev = p
 
-# Your LRUCache object will be instantiated and called as such:
-# obj = LRUCache(capacity)
-# param_1 = obj.get(key)
-# obj.put(key,value)
 
-# Ordered List
-class LRUCache:
+    def _rem(self,node):
+        p = node.prev
+        n = node.next
+        p.next = n
+        n.prev = p
 
-    def __init__(self, capacity: int):
-        self.capacity = capacity
-        self.dic = collections.OrderedDict()
-
-    def get(self, key: int) -> int:
-        if key in self.dic:
-            n = self.dic[key]
-            del self.dic[key]
-            self.dic[key] = n
-            return n
-        return -1
-
-    def put(self, key: int, value: int) -> None:
-        if key in self.dic:
-            del self.dic[key]
-        self.dic[key] = value
-        if len(self.dic)>self.capacity:
-            self.dic.popitem(last= False)
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
