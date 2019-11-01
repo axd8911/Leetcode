@@ -10,7 +10,7 @@ def solution(nums):
 
     for item in myKeys:
         if item-1 in myKeys:
-            keepThis,keepLast = keepLast + dic[item], keepThis
+            keepThis,keepLast = keepLast + dic[item], max(keepLast,keepThis)
 
         else:
             keepThis = max(keepLast,keepThis) + dic[item]
