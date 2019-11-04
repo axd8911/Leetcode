@@ -67,7 +67,7 @@ def solutions(h,w,n):
         a = bfs(combine)
         shortest = min(shortest,a)
 
-
+ 
 
 
     return shortest
