@@ -7,4 +7,3 @@ class Solution:
                 return [past[target-nums[i]],i]
             else:
                 past[nums[i]] = i
- 
