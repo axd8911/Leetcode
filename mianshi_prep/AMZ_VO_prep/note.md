@@ -7,3 +7,6 @@ blind point:
 - directed graph
 
 472, what a brief solution
+545
+
+You have not done 1000 yet
