@@ -10,3 +10,5 @@ blind point:
 545
 
 You have not done 1000 yet
+
+212, a good combination of trie and dfs
