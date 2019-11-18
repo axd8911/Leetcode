@@ -13,3 +13,5 @@ You have not done 1000 yet
 
 212, a good combination of trie and dfs
 126， still needs further working
+1102, remember its method
+341, keep in mind
