@@ -1,2 +1,2 @@
 for i in range(10):
-    print (1-0.1**i)
+    print (1-0.05**i)
