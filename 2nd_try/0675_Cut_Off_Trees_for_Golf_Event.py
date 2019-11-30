@@ -25,7 +25,7 @@ class Solution:
                             visited.add((nx,ny))
                             queue.append((nx,ny))
             return -1
-
+ 
         for i in range(h):
             for j in range(w):
                 if forest[i][j]>1:
