@@ -1,3 +1,4 @@
+```java
 public class ParlindromeNumber {
     public boolean isPalindrome(int x) {
         if (x<0){return false;}
@@ -12,3 +13,4 @@ public class ParlindromeNumber {
         return backup==res;
     } 
 } 
+```

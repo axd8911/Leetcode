@@ -1,3 +1,4 @@
+```java
 class RomanToInt {
     public int romanToInt(String s) {
         HashMap<Character,Integer> symbol = new HashMap<>();
@@ -26,3 +27,4 @@ class RomanToInt {
         return res;
     }
 }
+```

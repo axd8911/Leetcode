@@ -1,3 +1,5 @@
+```java
+
 import java.util.HashMap;
 
 class TwoSum {
@@ -14,3 +16,5 @@ class TwoSum {
         
     }
 }
+
+```
